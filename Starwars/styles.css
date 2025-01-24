@@ -3,8 +3,6 @@ body {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 100%), url('Images/starwars.jpg');
     background-size: cover;
     color: #000000;
-    /* display: flex; */
-    /* justify-content: center; */
     align-items: center;
     min-height: 100vh;
     padding: 20px;
@@ -13,7 +11,6 @@ body {
 }
 header {
   text-align: center;
-  /* background-color: #282c34; */
   font-size: larger;
   color: white;
   padding: 1rem 0;
