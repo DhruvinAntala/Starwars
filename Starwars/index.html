@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Starwars Characters</h1>
+    </header>
+    <div class="loader" id="loader">Loading...</div>
+    <div class="container" id="character-list"></div>
+    <div class="pagination" id="pagination"></div>
+    <div class="modal" id="character-modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2 id="modal-name"></h2>
+            <p><strong>Height:</strong> <span id="modal-height"></span> m</p>
+            <p><strong>Mass:</strong> <span id="modal-mass"></span> kg</p>
+            <p><strong>Date Added:</strong> <span id="modal-date-added"></span></p>
+            <p><strong>Films Count:</strong> <span id="modal-films-count"></span></p>
+            <p><strong>Birth Year:</strong> <span id="modal-birth-year"></span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
